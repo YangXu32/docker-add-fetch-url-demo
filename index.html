@@ -1,6 +1,59 @@
 <!DOCTYPE html>
 <html>
-  <body style='background-color:rgb(227, 213, 180);'>
+  <head>
+    <style>
+      body {
+        background-color: rgb(227, 213, 180);
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .top-bar {
+        background: #2d2d2d;
+        color: #fff;
+        padding: 10px 24px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+      }
+
+      .tool-section {
+        display: flex;
+        gap: 16px;
+        align-items: center;
+      }
+
+      .tool-section-title {
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        font-size: 13px;
+        color: #cfcfcf;
+      }
+
+      .tool-link {
+        color: #4ad1ff;
+        text-decoration: none;
+        font-weight: bold;
+      }
+
+      .tool-link:hover,
+      .tool-link:focus {
+        text-decoration: underline;
+      }
+
+      .page-content {
+        padding: 24px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="top-bar">
+      <div class="tool-section">
+        <span class="tool-section-title">Tools</span>
+        <a class="tool-link" href="git1.html">Source Viewer</a>
+        <a class="tool-link" href="git2.html">Change Log</a>
+        <a class="tool-link" href="prompt-library.html">Prompt Library</a>
+      </div>
+    </div>
+    <div class="page-content">
     <h1>Welcome to StackSimplify - Docker ADD Instruction - FETCH FROM URL Demo</h1>
     <p>Learn technology through practical, real-world demos.</p>
     <p>Application Version: V1</p>
@@ -15,7 +68,11 @@
       <tr>
         <td><a href="git2.html">File 2</a></td>
       </tr>
+      <tr>
+        <td><a href="git3.html">File 3</a></td>
+      </tr>
     </table>    
     <a href="https://docs.docker.com/reference/dockerfile/">Dockerfile Reference</a>
+    </div>
   </body>
 </html>
