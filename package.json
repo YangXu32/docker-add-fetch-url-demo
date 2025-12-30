@@ -1,0 +1,10 @@
+{
+  "name": "docker-add-fetch-url-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static HTML demo.",
+  "scripts": {
+    "dev": "py -m http.server 3000 --bind 127.0.0.1",
+    "dev:python": "python -m http.server 3000"
+  }
+}
